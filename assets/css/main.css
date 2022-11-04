@@ -1736,15 +1736,20 @@ body {
   padding: 6em 0 6em 0;
 }
 
-.main.style3 .content > header {
+.main.style4 {
+  text-align: center;
+  padding: 0 0 6em 0;
+}
+
+.main.style3 .content > header, .main.style4 .content > header {
   margin-bottom: 2em;
 }
 
-.main.style3.primary {
+.main.style3.primary,  .main.style4.primary{
   background: #ffffff;
 }
 
-.main.style3.secondary {
+.main.style3.secondary, .main.style4.secondary{
   background: #f5f6f7;
 }
 
@@ -1834,10 +1839,12 @@ body.is-touch .main {
     transform: none;
   }
 
-  .main.style3 {
+  .main.style3, .main.style4 {
     text-align: center;
     padding: 3em 10px 3em 10px;
   }
+
+
 }
 
 @media screen and (max-width: 480px) {
